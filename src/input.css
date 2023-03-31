@@ -34,15 +34,15 @@
 }
 
 .imagesTeam .item:nth-child(1) {
-    @apply absolute left-[50%] bottom-[38px] -translate-x-[120%] -translate-y-0
+    @apply absolute left-[50%] -bottom-[15px] -translate-x-[120%] -translate-y-0
 }
 
 .imagesTeam .item:nth-child(2) {
-    @apply absolute left-[50%] bottom-[48px] -translate-x-[45%] -translate-y-0
+    @apply absolute left-[50%] -bottom-[3px] -translate-x-[45%] -translate-y-0
 }
 
 .imagesTeam .item:nth-child(3) {
-    @apply absolute left-[50%] bottom-[35px] translate-x-[35%] -translate-y-0
+    @apply absolute left-[50%] -bottom-[18px] translate-x-[35%] -translate-y-0
 }
 
 

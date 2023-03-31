@@ -651,6 +651,18 @@ body {
   margin-top: 2rem;
 }
 
+.ml-3 {
+  margin-left: 0.75rem;
+}
+
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
+.ml-7 {
+  margin-left: 1.75rem;
+}
+
 .block {
   display: block;
 }
@@ -1218,7 +1230,7 @@ body {
 .imagesTeam .item:nth-child(1) {
   position: absolute;
   left: 50%;
-  bottom: 38px;
+  bottom: -15px;
   --tw-translate-x: -120%;
   --tw-translate-y: -0px;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1227,7 +1239,7 @@ body {
 .imagesTeam .item:nth-child(2) {
   position: absolute;
   left: 50%;
-  bottom: 48px;
+  bottom: -3px;
   --tw-translate-x: -45%;
   --tw-translate-y: -0px;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1236,7 +1248,7 @@ body {
 .imagesTeam .item:nth-child(3) {
   position: absolute;
   left: 50%;
-  bottom: 35px;
+  bottom: -18px;
   --tw-translate-x: 35%;
   --tw-translate-y: -0px;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1366,6 +1378,11 @@ body {
     line-height: 1.75rem;
   }
 
+  .md\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
   .md\:leading-\[5\.3rem\] {
     line-height: 5.3rem;
   }
@@ -1437,6 +1454,10 @@ body {
 
   .xl\:w-\[95\%\] {
     width: 95%;
+  }
+
+  .xl\:w-\[85\%\] {
+    width: 85%;
   }
 
   .xl\:grid-cols-\[_0\.8fr_2fr\] {
