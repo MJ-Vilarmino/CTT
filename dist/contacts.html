@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="./output.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+</head>
+<body>
+
+    <header class="header pt-5 pb-2">
+        <div class="container">
+
+            <div class="header__wrapper flex items-center justify-between w-[85%] mx-auto">
+                <div class="header__logo">
+                    <h2 class="text-lightGray text-[9px] font-semibold">Craniocervical-Craniosacral-TMJ</h2>
+                    <h2 class="font-bold text-3xl text-darkGray leading-[1.5rem]">CCCS - TMJ</h2>
+                    <h2 class="text-lightGray ml-10 text-[12px] font-semibold tracking-[0.3em]">INTERNATIONAL</h2>
+                </div>
+
+                <div class="headerNav relative">
+                    <ul class="lg:flex hidden gap-8 text-darkGray font-semibold">
+                        <li><a class=" after:content-[''] after:-bottom-3 after:-left-1 after:hover:bg-primary after:w-14 after:h-1 after:absolute" href="index.html">Home</a></li>
+                        <li><a class="after:content-[''] after:-bottom-3 after:left-[4.8rem] after:hover:bg-primary after:w-14 after:h-1 after:absolute" href="about.html">About</a></li>
+                        <li><a class="after:content-[''] after:-bottom-3 after:left-[9.7rem] after:hover:bg-primary after:w-20 after:h-1 after:absolute" href="course.html">Courses</a></li>
+                        <li><a class="after:content-[''] after:-bottom-3 after:left-[15.9rem] after:hover:bg-primary after:w-14 after:h-1 after:absolute" href="news&updates.html">News</a></li>
+                        <li><a class="after:content-[''] after:-bottom-3 after:left-[20.7rem] after:bg-primary after:w-20 after:h-1 after:absolute" href="contacts.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="lg:hidden flex">
+                    <div class="toggleMenu cursor-pointer">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="headerMobileNav transition-all duration-500">
+                <ul class="text-center gap-5 text-[1.5rem] py-5 text-lightGray font-semibold">
+                <li><a class="block p-3" href="index.html">Home</a></li>
+                <li><a class="block p-3" href="about.html">About</a></li>
+                <li><a class="block p-3" href="course.html">Courses</a></li>
+                <li><a class="block p-3" href="news&updates.html">News</a></li>
+                <li><a class="block p-3" href="contacts.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="contacts py-20">
+        <div class="container">
+            <h2 class="text-6xl text-darkGray font-bold mb-10 w-[85%] mx-auto">Contact Us</h2>
+            <div class="contacts__wrapper w-[85%] ml-12 xl:ml-48 mx-auto lg:grid lg:grid-cols-2 grid-cols-1 gap-24">
+                
+                <div class="contacts__content mb-10">
+                    <p class="text-justify mb-10">For more information on our craniosacral seminar and to register for the course, contact us today!</p>
+                    <div class="inputGroup mb-3 ">
+                        <input class="p-3 w-full mt-2 border border-gray-200 rounded-sm"  type="text" placeholder="Name">
+                    </div>
+
+                    <div class="inputGroup mb-3 ">
+                        <input class="p-3 w-full mt-2 border border-gray-200 rounded-sm"  type="email" placeholder="Email">
+                    </div>
+
+                    <div class="inputGroup mb-5 ">
+                        <input class="p-3 w-full mt-2 border border-gray-200 rounded-sm"  type="password" placeholder="Password">
+                    </div>
+
+                    <div class="border border-gray-200 rounded-sm mb-10">
+                        <textarea class="p-3 w-full h-40" id="subject" name="subject" placeholder="Message" ></textarea>
+                    </div>
+
+                    <div>
+                        <a class="font-bold bg-primary rounded-full p-3 px-5 mr-2" href="#">Send Message</a>
+                    </div>
+                   
+                </div>
+
+                <div>
+                    <h3 class="font-bold text-xl mb-6 mt-24">Address</h3>
+                    <p class="mb-14">Lorem ipsum dolor sit amet consectetur. Amet adipiscing sit dolor sagittis nulla faucibus.</p>
+
+                    <h3  class="font-bold text-xl mb-6">Support</h3>
+                    <p class="mb-6 font-semibold">cccstmjinternational@gmail.com</p>
+                    <p class="font-semibold">0967 476 6598</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer bg-lighterGray py-10">
+        <div class="container">
+            <div class="footer__logo w-[85%] mx-auto text-center md:text-left">
+                    <h2 class="text-lightGray text-[9px] font-semibold">Craniocervical-Craniosacral-TMJ</h2>
+                    <h2 class="font-bold text-3xl text-darkGray leading-[1.5rem]">CCCS - TMJ</h2>
+                    <h2 class="text-lightGray ml-10 text-[12px] font-semibold tracking-[0.3em] mb-5">INTERNATIONAL</h2>
+                    <div class="md:flex block justify-between">
+                        <p class="md:w-[48%] w-[100%] text-justify text-sm mb-10">where our passion for craniocervical and craniosacral therapy drives our commitment to providing high-quality education and training. With years of experience and expertise in the field, our team of instructors is dedicated to helping healthcare professionals improve their skills and expand their knowledge.</p>
+                        <div>
+                            <h3 class="mb-5">Follow us:</h3>
+                            <ul class="text-darkGray text-2xl flex gap-3 justify-center">
+                                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const toggleMenu = document.querySelector('.toggleMenu');
+        const headerMobileNav = document.querySelector('.headerMobileNav');
+
+        toggleMenu.addEventListener('click', ()=>{
+            headerMobileNav.classList.toggle('active');
+        })
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js"></script>
+
+    <script type="module">
+        var slider = tns({
+        container: '.my-slider',
+        items: 1,
+        slideBy: 'page',
+        autoplay: false,
+        controlsText: ['<i class="fa-solid fa-chevron-left"></i>', '<i class="fa-solid fa-chevron-right"></i>'],
+        });
+    </script>
+    
+</body>
+</html>
