@@ -15,6 +15,7 @@
     @apply bg-lightGray block mb-1 ml-auto
 }
 
+
 .headerMobileNav {
     max-height: 0;
     overflow: hidden;
@@ -31,4 +32,17 @@
 .tns-controls button:last-child {
     @apply hidden md:block absolute top-[45%] z-10 right-[4%] bg-darkGray rounded-full w-10 h-10 text-whiteLight 
 }
+
+.imagesTeam .item:nth-child(1) {
+    @apply absolute left-[50%] bottom-[38px] -translate-x-[120%] -translate-y-0
+}
+
+.imagesTeam .item:nth-child(2) {
+    @apply absolute left-[50%] bottom-[48px] -translate-x-[45%] -translate-y-0
+}
+
+.imagesTeam .item:nth-child(3) {
+    @apply absolute left-[50%] bottom-[35px] translate-x-[35%] -translate-y-0
+}
+
 
